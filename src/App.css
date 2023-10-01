@@ -1,0 +1,40 @@
+.calculator {
+  width: 320px;
+  margin: 100px auto;
+}
+
+#answer {
+  background-color: #4c4c4c;
+  padding: 10px;
+  font-size: 40px;
+  width: 295px;
+  height: 80px;
+  text-align: right;
+}
+.button {
+  background: #d6d6d6;
+  height: 80px;
+  width: 80px;
+  color: white;
+  font-size: 30px;
+  border: 1px solid #3f3f3f;
+  float: left;
+}
+.button1 {
+  background: #d6d6d6;
+  height: 80px;
+  width: 160px;
+  color: white;
+  font-size: 30px;
+  border: 1px solid #3f3f3f;
+  float: left;
+}
+.button2 {
+  background: #ff790f;
+  height: 80px;
+  width: 80px;
+  color: white;
+  font-size: 30px;
+  border: 1px solid #3f3f3f;
+  float: left;
+}
