@@ -8,6 +8,11 @@ const App = () => {
     setResult(result.concat(event.target.value));
   };
 
+  const clickHandler2 =(event) => {
+    console.log(result);
+    setResult((-1 * eval(result)).toString()); 
+  };
+
   const clearDisplay = () => {
     setResult("");
   };
@@ -32,7 +37,7 @@ const App = () => {
         type="button"
         value="+/-"
         className="button"
-        onClick={clickHandler}
+        onClick={clickHandler2}
       />
       <input
         type="button"
